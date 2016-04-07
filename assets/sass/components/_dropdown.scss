@@ -1,0 +1,5 @@
+@import 'utilidades/_variables';
+@import 'utilidades/_mixins';
+.cart {
+	@include background('../images/flag1.png')
+}

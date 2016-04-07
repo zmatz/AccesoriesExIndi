@@ -1,0 +1,78 @@
+@import 'utilidades/_variables';
+@import 'utilidades/_mixins';
+
+.navbar-top-header {
+  background-color: $grayhumo;
+  .navbar-brand {
+    color: $white;
+    &:hover, &:focus {
+      color: $darkgray;
+      background-color: $orangered; }
+    }
+  .navbar-text {
+    color: $grayhumo; 
+  }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $white;
+        &:hover,  &:focus {
+          color: $darkgray; }}
+      @if $dropDown {
+        > .dropdown-menu {
+          background-color: $grayhumo;
+          > li {
+            > a {
+              color: $white;
+              &:hover,  &:focus {
+                color: $darkgray;
+                background-color: $orangered; }}
+            }}}}
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $darkgray;
+          background-color: $orangered; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $darkgray;
+        background-color: $orangered; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $darkgray;
+        background-color: $orangered; }}}
+  .nav .caret {
+    border-top-color: $white;
+    border-bottom-color: $white;
+    }
+  .navbar-toggle {
+    border-color: $orangered;
+    &:hover, &:focus {
+      background-color: $orangered; }
+    .icon-bar {
+      background-color: $white; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $white; }
+  .navbar-link {
+    color: $white;
+    &:hover {
+      color: $darkgray; }}
+      }//termina navbar-topheader
+.navbar-bottom-header {
+  @extend .navbar-top-header
+
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $white;
+      &:hover, &:focus {
+        color: $darkgray; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $darkgray;
+        background-color: $orangered; }}}
+}
