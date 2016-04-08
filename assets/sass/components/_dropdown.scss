@@ -1,5 +1,11 @@
 @import 'utilidades/_variables';
 @import 'utilidades/_mixins';
-.cart {
-	@include background('../images/flag1.png')
+
+.dropdown {
+	
+}
+
+.flag {
+	@include background('../images/flag1.png');
+	
 }

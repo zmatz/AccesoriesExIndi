@@ -1,107 +1,162 @@
-/* line 3, ../sass/components/_dropdown.scss */
-.cart {
+/* line 8, ../sass/components/_dropdown.scss */
+.flag {
   background-image: url("../images/flag1.png");
-  background-position: 0 0;
+  background-position: 5%;
   background-repeat: no-repeat;
+  padding-right: 30px;
 }
 
 /* line 4, ../sass/layout/_navigation.scss */
 .navbar-top-header, .navbar-bottom-header {
-  background-color: #d3d8e4;
-}
-/* line 6, ../sass/layout/_navigation.scss */
-.navbar-top-header .navbar-brand, .navbar-bottom-header .navbar-brand {
-  color: #fafafa;
+  background-color: whitesmoke;
 }
 /* line 8, ../sass/layout/_navigation.scss */
-.navbar-top-header .navbar-brand:hover, .navbar-bottom-header .navbar-brand:hover, .navbar-top-header .navbar-brand:focus, .navbar-bottom-header .navbar-brand:focus {
-  color: #a09aa5;
-  background-color: #bd1c47;
-}
-/* line 12, ../sass/layout/_navigation.scss */
-.navbar-top-header .navbar-text, .navbar-bottom-header .navbar-text {
-  color: #d3d8e4;
-}
-/* line 17, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > li > a, .navbar-bottom-header .navbar-nav > li > a {
-  color: #fafafa;
+  color: #666666;
 }
-/* line 19, ../sass/layout/_navigation.scss */
+/* line 10, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > li > a:hover, .navbar-bottom-header .navbar-nav > li > a:hover, .navbar-top-header .navbar-nav > li > a:focus, .navbar-bottom-header .navbar-nav > li > a:focus {
-  color: #a09aa5;
+  color: #e48080;
 }
-/* line 22, ../sass/layout/_navigation.scss */
+/* line 15, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > li > .dropdown-menu, .navbar-bottom-header .navbar-nav > li > .dropdown-menu {
-  background-color: #d3d8e4;
+  background-color: whitesmoke;
 }
-/* line 25, ../sass/layout/_navigation.scss */
+/* line 18, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > li > .dropdown-menu > li > a, .navbar-bottom-header .navbar-nav > li > .dropdown-menu > li > a {
-  color: #fafafa;
+  font-size: 12px;
+  color: #666666;
+}
+/* line 21, ../sass/layout/_navigation.scss */
+.navbar-top-header .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-bottom-header .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-top-header .navbar-nav > li > .dropdown-menu > li > a:focus, .navbar-bottom-header .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #e48080;
+  background-color: #e48080;
 }
 /* line 27, ../sass/layout/_navigation.scss */
-.navbar-top-header .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-bottom-header .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-top-header .navbar-nav > li > .dropdown-menu > li > a:focus, .navbar-bottom-header .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #a09aa5;
-  background-color: #bd1c47;
-}
-/* line 33, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav .open .dropdown-menu > .active > a, .navbar-bottom-header .navbar-nav .open .dropdown-menu > .active > a, .navbar-top-header .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-bottom-header .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-top-header .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-bottom-header .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #a09aa5;
-  background-color: #bd1c47;
+  color: #666666;
+  background-color: #e48080;
 }
-/* line 37, ../sass/layout/_navigation.scss */
+/* line 31, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > .active > a, .navbar-bottom-header .navbar-nav > .active > a, .navbar-top-header .navbar-nav > .active > a:hover, .navbar-bottom-header .navbar-nav > .active > a:hover, .navbar-top-header .navbar-nav > .active > a:focus, .navbar-bottom-header .navbar-nav > .active > a:focus {
-  color: #a09aa5;
-  background-color: #bd1c47;
+  color: #666666;
+  background-color: #e48080;
 }
-/* line 41, ../sass/layout/_navigation.scss */
+/* line 35, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-nav > .open > a, .navbar-bottom-header .navbar-nav > .open > a, .navbar-top-header .navbar-nav > .open > a:hover, .navbar-bottom-header .navbar-nav > .open > a:hover, .navbar-top-header .navbar-nav > .open > a:focus, .navbar-bottom-header .navbar-nav > .open > a:focus {
-  color: #a09aa5;
-  background-color: #bd1c47;
+  color: #666666;
+  background-color: #e48080;
+}
+/* line 38, ../sass/layout/_navigation.scss */
+.navbar-top-header .nav .caret, .navbar-bottom-header .nav .caret {
+  border-top-color: #cccccc;
+  border-bottom-color: #cccccc;
+}
+/* line 42, ../sass/layout/_navigation.scss */
+.navbar-top-header .navbar-toggle, .navbar-bottom-header .navbar-toggle {
+  border-color: #e48080;
 }
 /* line 44, ../sass/layout/_navigation.scss */
-.navbar-top-header .nav .caret, .navbar-bottom-header .nav .caret {
-  border-top-color: #fafafa;
-  border-bottom-color: #fafafa;
-}
-/* line 48, ../sass/layout/_navigation.scss */
-.navbar-top-header .navbar-toggle, .navbar-bottom-header .navbar-toggle {
-  border-color: #bd1c47;
-}
-/* line 50, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-toggle:hover, .navbar-bottom-header .navbar-toggle:hover, .navbar-top-header .navbar-toggle:focus, .navbar-bottom-header .navbar-toggle:focus {
-  background-color: #bd1c47;
+  background-color: #e48080;
 }
-/* line 52, ../sass/layout/_navigation.scss */
+/* line 46, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-toggle .icon-bar, .navbar-bottom-header .navbar-toggle .icon-bar {
-  background-color: #fafafa;
+  background-color: #e48080;
 }
-/* line 55, ../sass/layout/_navigation.scss */
+/* line 49, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-collapse, .navbar-bottom-header .navbar-collapse,
 .navbar-top-header .navbar-form,
 .navbar-bottom-header .navbar-form {
-  border-color: #fafafa;
+  border-color: #cccccc;
 }
-/* line 57, ../sass/layout/_navigation.scss */
+/* line 51, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-link, .navbar-bottom-header .navbar-link {
-  color: #fafafa;
+  color: #cccccc;
 }
-/* line 59, ../sass/layout/_navigation.scss */
+/* line 53, ../sass/layout/_navigation.scss */
 .navbar-top-header .navbar-link:hover, .navbar-bottom-header .navbar-link:hover {
-  color: #a09aa5;
+  color: #666666;
+}
+
+/* line 61, ../sass/layout/_navigation.scss */
+.navbar-bottom-header a {
+  font-size: 15px;
+  color: #666666;
+}
+/* line 64, ../sass/layout/_navigation.scss */
+.navbar-bottom-header a:hover, .navbar-bottom-header a:focus {
+  color: whitesmoke;
+  background-color: #e48080;
 }
 
 @media (max-width: 767px) {
-  /* line 70, ../sass/layout/_navigation.scss */
+  /* line 73, ../sass/layout/_navigation.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fafafa;
-  }
-  /* line 72, ../sass/layout/_navigation.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #a09aa5;
+    color: #cccccc;
   }
   /* line 75, ../sass/layout/_navigation.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #a09aa5;
-    background-color: #bd1c47;
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: whitesmoke;
   }
+  /* line 78, ../sass/layout/_navigation.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #666666;
+    background-color: #e48080;
+  }
+}
+/* line 1, ../sass/layout/_header.scss */
+.opentime {
+  margin-top: 25px;
+  float: left;
+}
+/* line 4, ../sass/layout/_header.scss */
+.opentime .fa {
+  float: left;
+}
+
+/* line 9, ../sass/layout/_header.scss */
+.time {
+  float: left;
+}
+
+/* line 13, ../sass/layout/_header.scss */
+.banner {
+  padding: 50px;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  background-color: whitesmoke;
+  color: #666666;
+}
+
+/* line 7, ../sass/layout/_footer.scss */
+.social-media li a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: white;
+  color: #555555;
+  padding: 0;
+  border-radius: 0;
+  position: relative;
+}
+
+/* line 20, ../sass/layout/_footer.scss */
+.top-footer {
+  padding: 30px 0;
+}
+
+/* line 25, ../sass/layout/_footer.scss */
+.bottom-footer {
+  background-color: #414141;
+  color: whitesmoke;
+}
+
+/* line 1, ../sass/layout/_forms.scss */
+.search-icon {
+  position: absolute;
+  display: inline-block;
 }

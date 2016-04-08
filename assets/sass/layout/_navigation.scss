@@ -2,30 +2,24 @@
 @import 'utilidades/_mixins';
 
 .navbar-top-header {
-  background-color: $grayhumo;
-  .navbar-brand {
-    color: $white;
-    &:hover, &:focus {
-      color: $darkgray;
-      background-color: $orangered; }
-    }
-  .navbar-text {
-    color: $grayhumo; 
-  }
+    background-color: $whitesmoked;
   .navbar-nav {
     > li {
       > a {
-        color: $white;
+        color: $darkgray;
         &:hover,  &:focus {
-          color: $darkgray; }}
+          color: $orangered; 
+          }
+        }
       @if $dropDown {
         > .dropdown-menu {
-          background-color: $grayhumo;
+          background-color: $whitesmoked;
           > li {
             > a {
-              color: $white;
+              font-size: 12px;
+              color: $darkgray;
               &:hover,  &:focus {
-                color: $darkgray;
+                color: $orangered;
                 background-color: $orangered; }}
             }}}}
     @if $dropDown {
@@ -42,35 +36,44 @@
         color: $darkgray;
         background-color: $orangered; }}}
   .nav .caret {
-    border-top-color: $white;
-    border-bottom-color: $white;
+    border-top-color: $humo;
+    border-bottom-color: $humo;
     }
   .navbar-toggle {
     border-color: $orangered;
     &:hover, &:focus {
       background-color: $orangered; }
     .icon-bar {
-      background-color: $white; }}
+      background-color: $orangered; }}
   .navbar-collapse,
   .navbar-form {
-    border-color: $white; }
+    border-color: $humo; }
   .navbar-link {
-    color: $white;
+    color: $humo;
     &:hover {
       color: $darkgray; }}
       }//termina navbar-topheader
 .navbar-bottom-header {
   @extend .navbar-top-header
-
 }
 
+.navbar-bottom-header {
+  a {
+  font-size: 15px;
+  color: $darkgray;
+  &:hover,  &:focus {
+    color: $whitesmoked;
+    background-color: $orangered;
+      }
+    }
+}
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu {
     > li > a {
-      color: $white;
+      color: $humo;
       &:hover, &:focus {
-        color: $darkgray; }}
+        color: $whitesmoked; }}
     > .active {
       > a, > a:hover, > a:focus {
         color: $darkgray;

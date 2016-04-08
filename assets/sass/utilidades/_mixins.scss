@@ -1,7 +1,8 @@
-@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
-    background: {
+@mixin background($imgpath,$position:5%,$repeat: no-repeat,$pr:30px) {
+    	background: {
         image: url($imgpath);
         position: $position;
         repeat: $repeat;
     }
+    padding-right: $pr;
 }
