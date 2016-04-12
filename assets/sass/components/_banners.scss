@@ -1,0 +1,27 @@
+.opentime {
+	margin-top: 25px; 
+
+}
+
+.time {
+	float: left;
+}
+
+.banner {
+	padding: 50px;
+}
+
+
+@media (max-width: 767px) {
+  .opening .img-logo, .top-search {
+      padding: 20px;
+		margin-top: 25px; 
+}
+}
+.banner {
+	padding: 20px;
+}
+
+.banner-twins {
+	margin: 5% 0;
+}

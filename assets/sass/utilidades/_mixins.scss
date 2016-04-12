@@ -6,3 +6,10 @@
     }
     padding-right: $pr;
 }
+
+@mixin linkcolor($border-radius) {
+    &:hover,  &:focus {
+    color: $white;
+    background-color: $orangered;
+	}
+}

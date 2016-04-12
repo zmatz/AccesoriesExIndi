@@ -20,21 +20,33 @@
               color: $darkgray;
               &:hover,  &:focus {
                 color: $orangered;
-                background-color: $orangered; }}
-            }}}}
+                background-color: $orangered; }
+                }
+              }
+            }
+          }
+        }
+
     @if $dropDown {
       .open .dropdown-menu > .active {
         > a, > a:hover, > a:focus {
           color: $darkgray;
-          background-color: $orangered; }}}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: $darkgray;
-        background-color: $orangered; }}
-    > .open {
-      > a, > a:hover, > a:focus {
-        color: $darkgray;
-        background-color: $orangered; }}}
+          background-color: $orangered; 
+          }
+        }
+      }
+        > .active {
+        > a, > a:hover, > a:focus {
+          color: $darkgray;
+          background-color: $orangered; }
+        }
+        > .open {
+        > a, > a:hover, > a:focus {
+          color: $darkgray;
+          background-color: $orangered; 
+          }
+        }
+      }
   .nav .caret {
     border-top-color: $humo;
     border-bottom-color: $humo;
@@ -45,13 +57,13 @@
       background-color: $orangered; }
     .icon-bar {
       background-color: $orangered; }}
-  .navbar-collapse,
-  .navbar-form {
-    border-color: $humo; }
-  .navbar-link {
-    color: $humo;
+    .navbar-collapse {
+      border-color: $humo; }
+    .navbar-link {
+      color: $humo;
     &:hover {
-      color: $darkgray; }}
+      color: $darkgray; }
+        }
       }//termina navbar-topheader
 .navbar-bottom-header {
   @extend .navbar-top-header
